@@ -5,5 +5,10 @@ loop for.
 
 
 */
-const numero1  = parseFloat(prompt('Digite um numero:'))
-
+let numero = parseInt(prompt('Digite um numero:'))
+let resultado = 1
+while (numero > 1) {
+      resultado = resultado * numero
+      numero--
+}
+alert(resultado)
